@@ -8,8 +8,8 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordFild.value;
     // console.log(password);
     if(email == 'sontan@baap.com' && password == 'admin'){
-        console.log('vaild user');
+        window.location.href = 'bank.html';
     }else{
-        console.log('invalid user');
+        alert('invalid user');
     }
 })
